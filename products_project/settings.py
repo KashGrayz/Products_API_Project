@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'products',
     'rest_framework_simplejwt',
+    'product_reviews',
 ]
 
 REST_FRAMEWORK = {
