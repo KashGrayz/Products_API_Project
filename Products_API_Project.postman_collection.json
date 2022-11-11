@@ -37,7 +37,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"title\": \"Raw Sugar\",\n    \"discription\": \"1lb 100% raw sugar no additives or processing\",\n    \"price\": 4.00,\n    \"inventory_quantity\": 76\n}",
+					"raw": "{\n    \"title\": \"Ice Cream\",\n    \"discription\": \"1gallon chocolate\",\n    \"price\": 7.50,\n    \"inventory_quantity\": 65,\n    \"image_url\": \"icecreamchocolate.url\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -69,7 +69,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/products/1/",
+					"raw": "http://127.0.0.1:8000/api/products/13/",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -81,7 +81,7 @@
 					"path": [
 						"api",
 						"products",
-						"1",
+						"13",
 						""
 					]
 				}
@@ -95,7 +95,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "",
+					"raw": "{\n    \"title\": \"Frozen Yogurt\",\n    \"discription\": \"4qt raspberry with fudge chunks\",\n    \"price\": 5.50,\n    \"inventory_quantity\": 24,\n    \"image_url\": \"frozenyogurtraspfudge.url\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -103,7 +103,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/products/3/",
+					"raw": "http://127.0.0.1:8000/api/products/13/",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -115,7 +115,7 @@
 					"path": [
 						"api",
 						"products",
-						"3",
+						"13",
 						""
 					]
 				}
@@ -128,7 +128,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/products/3/",
+					"raw": "http://127.0.0.1:8000/api/products/13/",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -140,7 +140,7 @@
 					"path": [
 						"api",
 						"products",
-						"3",
+						"13",
 						""
 					]
 				}
